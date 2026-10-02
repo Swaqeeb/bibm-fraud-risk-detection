@@ -1,0 +1,62 @@
+# ==============================
+# Dataset / raw data
+# ==============================
+data/
+PS_20174392719_1491204439457_log.csv
+*PaySim*.csv
+*paysim*.csv
+
+# ==============================
+# Large model artifacts
+# ==============================
+*.pkl
+*.joblib
+*.sav
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# ==============================
+# Archives / backups
+# ==============================
+*.zip
+*.rar
+*.7z
+
+# ==============================
+# Private configuration
+# ==============================
+.env
+.env.*
+*.key
+*.pem
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ==============================
+# Jupyter / Colab
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Submitted paper files
+# Keep paper separate from code repo
+# ==============================
+*.docx
+*.pdf
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
