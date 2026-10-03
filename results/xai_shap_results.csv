@@ -1,0 +1,11 @@
+Rank,Feature,Mean_Absolute_SHAP
+1,step,1.7190549
+2,dest_prev_count,1.2120628
+3,type_transfer,0.7112566
+4,amount,0.7110666
+5,hour,0.6518626
+6,day,0.62771803
+7,is_night,0.013521762
+8,origin_prev_count,0.0
+9,origin_prev_avg_amount,0.0
+10,amount_to_origin_avg,0.0

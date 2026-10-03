@@ -1,0 +1,2 @@
+Selected_Transaction_Index,True_Label,Predicted_Fraud_Probability,SHAP_Sample_Size,Fraud_Cases_In_SHAP_Sample
+6348540,1,0.99981290102005,5000,170
