@@ -1,0 +1,69 @@
+{
+    "project": {
+        "name": "BIBM Fraud Detection Project",
+        "task": "Fraud Detection",
+        "dataset": "PaySim"
+    },
+    "dataset": {
+        "total_transactions": 6362620,
+        "total_fraud_cases": 8213,
+        "overall_fraud_rate": 0.001290820448180152
+    },
+    "data_subset": {
+        "description": "CASH_OUT and TRANSFER transactions",
+        "transactions": 2770409,
+        "fraud_cases": 8213
+    },
+    "chronological_split": {
+        "train_steps": "1-520",
+        "validation_steps": "521-632",
+        "test_steps": "633-743",
+        "train_transactions": 2653729,
+        "validation_transactions": 78709,
+        "test_transactions": 37971,
+        "train_fraud_cases": 5781,
+        "validation_fraud_cases": 1188,
+        "test_fraud_cases": 1244
+    },
+    "features": [
+        "step",
+        "hour",
+        "day",
+        "is_night",
+        "amount",
+        "type_transfer",
+        "origin_prev_count",
+        "dest_prev_count",
+        "origin_prev_avg_amount",
+        "amount_to_origin_avg"
+    ],
+    "feature_engineering": {
+        "historical_features": "Sequential cumulative features using preceding observations only",
+        "current_transaction_excluded": true,
+        "sorting": "step with stable ordering",
+        "same_step_handling": "Original dataset order preserved within identical steps"
+    },
+    "random_seed": 42,
+    "thresholds": {
+        "logistic_regression": 0.9,
+        "random_forest": 0.93,
+        "clean_xgboost": 0.96,
+        "lightgbm": 0.99,
+        "platt_calibrated_clean_xgboost": 0.283
+    },
+    "calibration": {
+        "method": "Platt Scaling",
+        "base_model": "Clean XGBoost",
+        "calibration_data": "Validation set only",
+        "test_data_used_for_fitting": false
+    },
+    "environment": {
+        "python": "3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+        "pandas": "2.2.3",
+        "numpy": "2.1.3",
+        "scikit_learn": "1.6.1",
+        "xgboost": "3.4.1",
+        "lightgbm": "4.6.0"
+    }
+}
