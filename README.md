@@ -5,7 +5,9 @@ Code, experimental results, and reproducibility materials for the research paper
 **“Explainable and Adaptive Machine Learning for Fraud Risk Detection in Bangladesh’s Digital Banking Ecosystem”**
 
 **Author:** Md Najmus Swaqeeb  
-**Status:** Accepted for presentation at the 11th Annual Banking Conference 2026, Bangladesh Institute of Bank Management (BIBM)
+**Status:** Presented at the 11th Annual Banking Conference 2026, Bangladesh Institute of Bank Management (BIBM), Dhaka, Bangladesh, 28 October 2026.
+
+**Preprint:** Submitted to arXiv; permanent arXiv identifier pending.
 
 ## Overview
 
