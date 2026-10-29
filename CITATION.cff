@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated research work."
+title: "Explainable and Adaptive Machine Learning for Fraud Risk Detection in Bangladesh's Digital Banking Ecosystem"
+type: software
+authors:
+  - family-names: "Swaqeeb"
+    given-names: "Md Najmus"
+    orcid: "https://orcid.org/0009-0001-0355-8064"
+repository-code: "https://github.com/Swaqeeb/bibm-fraud-risk-detection"
+license: MIT
+date-released: 2026-10-29
