@@ -69,4 +69,8 @@ The results should not be interpreted as direct estimates of fraud prevalence or
 
 ## Conference
 
-Accepted for presentation at the **11th Annual Banking Conference 2026**, organized by the **Bangladesh Institute of Bank Management (BIBM)**.
+Presented at the **11th Annual Banking Conference 2026**, organized by the **Bangladesh Institute of Bank Management (BIBM)**, Dhaka, Bangladesh, on **28 October 2026**.
+
+## Preprint
+
+A preprint has been submitted to **arXiv**. The permanent arXiv identifier and link will be added after the submission is announced.
